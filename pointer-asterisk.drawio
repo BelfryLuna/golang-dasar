@@ -1,0 +1,117 @@
+<mxfile host="Electron" modified="2024-03-08T08:17:28.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="fCfL-JLhhQ3VP3qajtzo" version="23.1.5" type="device">
+  <diagram name="Page-1" id="kLgsvkJh8VGUmBWnNaNm">
+    <mxGraphModel dx="1016" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-3" value="data address1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-4" value="Address 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-5" value="memory" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-6" value="sebelumnya kita tau, setelah menggunakan pointer antara address1 dan address2 mengacu pada data yang sama" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="1280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AR9AwQ-yE12MvKs_c4bh-7" target="AR9AwQ-yE12MvKs_c4bh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-7" value="address1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-8" value="address2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.69;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AR9AwQ-yE12MvKs_c4bh-8" target="AR9AwQ-yE12MvKs_c4bh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="390" width="450" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-12" value="data address1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-13" value="Address 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-14" value="memory" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-15" value="namun saat kita mengubah data pointer dari variabel operator&amp;nbsp; address2, maka yang berubah hanya&lt;br&gt;variabel operator itu sendiri" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="1280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AR9AwQ-yE12MvKs_c4bh-17" target="AR9AwQ-yE12MvKs_c4bh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-17" value="address1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="610" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AR9AwQ-yE12MvKs_c4bh-18" target="AR9AwQ-yE12MvKs_c4bh-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-18" value="address2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="610" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-20" value="data address2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-21" value="Address 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-23" value="addres2 akan mengacu pada memori yang berbeda dari addres1, sehingga data diantara keduanya terpisah" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="615" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="720" width="450" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-25" value="data address1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-26" value="Address 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-27" value="memory" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AR9AwQ-yE12MvKs_c4bh-29" target="AR9AwQ-yE12MvKs_c4bh-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="890" />
+              <mxPoint x="285" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-29" value="address1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="940" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AR9AwQ-yE12MvKs_c4bh-31" target="AR9AwQ-yE12MvKs_c4bh-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-31" value="address2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="940" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-32" value="data address2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-33" value="Address 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-34" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;maka dgn menggunakan asterisk operator, data yang dijadikan referencing/pointing atau data yg diacu (address1) dan semua variabel pointer yang mengacu pada address1, ikut berubah mengikuti perubahan yang dilakuakn pada variabel pointer yang menggunakan asterisk operator&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="945" width="375" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-36" value="Jika ingin data referencing (yang diacu) dan semua variabel pointer yang mengacu pada address1 ikut berubah mengikuti data variabel pointer yang akan diubah, operator asterisk (*) digunakan" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="34" y="683" width="545" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AR9AwQ-yE12MvKs_c4bh-41" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Oleh karena itu, jika data dr semua variabel pointer dan data acuannya, ikut berubah mengikuti variabel pointer yang datanya diubah dgn asterisk operator&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1030" width="585" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

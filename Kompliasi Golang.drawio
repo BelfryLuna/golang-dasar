@@ -1,0 +1,47 @@
+<mxfile host="Electron" modified="2024-03-10T00:23:54.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="wDbdL8aiNmkd0o4g_BxD" version="23.1.5" type="device">
+  <diagram name="Page-1" id="3lS4DYKuc5x5XqxTh4wP">
+    <mxGraphModel dx="864" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TmE6XVa_06kposldd2Xi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TmE6XVa_06kposldd2Xi-1" target="TmE6XVa_06kposldd2Xi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TmE6XVa_06kposldd2Xi-9" value="akan&amp;nbsp;&lt;br&gt;menghasilkan" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TmE6XVa_06kposldd2Xi-8">
+          <mxGeometry x="0.1294" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TmE6XVa_06kposldd2Xi-1" value="Go Compiler" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TmE6XVa_06kposldd2Xi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TmE6XVa_06kposldd2Xi-2" target="TmE6XVa_06kposldd2Xi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TmE6XVa_06kposldd2Xi-5" value="ingin&lt;br&gt;mengompile&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TmE6XVa_06kposldd2Xi-4">
+          <mxGeometry x="-0.2353" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TmE6XVa_06kposldd2Xi-2" value="main.go" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TmE6XVa_06kposldd2Xi-3" value="nama-project.exe" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TmE6XVa_06kposldd2Xi-6" value="file program/code yang&lt;br&gt;sebelumnya kita tulis&lt;br&gt;yang disimpan dalam format .go" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="207.5" y="280" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TmE6XVa_06kposldd2Xi-7" value="Hasil compile dr go compiler, dan&amp;nbsp;&lt;br&gt;menghasilkan binary/native/aplikasi filre yang dapat dijalankan&lt;br&gt;(.exe dll)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="408.75" y="287" width="262.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TmE6XVa_06kposldd2Xi-10" value="melakukan&lt;br&gt;kompilasi" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="130" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TmE6XVa_06kposldd2Xi-11" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;keterangan:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;dalam tahapan ini saat kita melakukan install bhs pemrograman golang, maka didalamnya juga akan terintall yang go compiler ini. bahasa golang adalah bahasa Compile. jadi untuk menjalankan file program dr ekstensi .go harus di build atau dicompile terlebih dahulu. Jadi, go compiler digunakan untuk mengompilasi file ekstensi go atau baris kode yang telah kita buat (main.go) menjadi sebuah binary file atau native/aplikasi file. nah maka kompilasi ini akan menghasilkan sebuah file yang ektensinya berupa .exe (di windows, bergantung OS maka akan berbeda ekstensinya) yang nantinya barulah file dr main.go dapat dijalankan di terminal,cmd dll&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;dgn command:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;go build&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="410" width="500" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

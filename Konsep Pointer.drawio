@@ -1,0 +1,137 @@
+<mxfile host="Electron" modified="2024-03-08T04:00:57.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="bOp33GR2TpKiqc5CUkkN" version="23.1.5" type="device">
+  <diagram name="Page-1" id="eoDwqls00h6txrFbPPo4">
+    <mxGraphModel dx="864" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8CmausN3yyh2izKodFJj-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="81" width="610" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-3" value="Memori" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="34" y="81" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8CmausN3yyh2izKodFJj-4" target="8CmausN3yyh2izKodFJj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-9" value="Data dari address akan&lt;br&gt;diduplikasi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8CmausN3yyh2izKodFJj-8">
+          <mxGeometry x="0.1553" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-4" value="Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="144" y="141" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-5" value="Data Address" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="134" y="121" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-6" value="Data duplikasi&amp;nbsp;&lt;br&gt;dari address" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="554" y="141" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-7" value="Data Address2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="544" y="121" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8CmausN3yyh2izKodFJj-10" target="8CmausN3yyh2izKodFJj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-13" value="merujuk ke memori" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8CmausN3yyh2izKodFJj-12">
+          <mxGeometry x="0.16" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-10" value="Adress" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="144" y="391" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-14" value="Konsep pass by value di golang&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="102" y="13" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8CmausN3yyh2izKodFJj-15" target="8CmausN3yyh2izKodFJj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-17" value="merujuk ke memori" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8CmausN3yyh2izKodFJj-16">
+          <mxGeometry x="-0.1467" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8CmausN3yyh2izKodFJj-15" target="8CmausN3yyh2izKodFJj-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="734" y="416" />
+              <mxPoint x="734" y="191" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-24" value="maka&amp;nbsp;&amp;nbsp;&lt;br&gt;yang akan&amp;nbsp;&lt;br&gt;diubah adalah&lt;br&gt;data terpisah&lt;br&gt;hasil duplikasi&lt;br&gt;address" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8CmausN3yyh2izKodFJj-23">
+          <mxGeometry x="0.0653" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-25" value="merubah&lt;br&gt;data&amp;nbsp;&lt;br&gt;address2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8CmausN3yyh2izKodFJj-23">
+          <mxGeometry x="-0.8607" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-15" value="Adress2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="554" y="391" width="120" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-18" value="dua variabel ini akan mengakses&amp;nbsp;&lt;br&gt;data yang benar terpisah" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="304" y="351" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-19" value="ketika address2 mengubah nilainya, maka&lt;br&gt;data yang akan dirubah merujuk ke data&lt;br&gt;hasil duplikasi address bukan data addressnya" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="479" y="440" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-20" value="ketika,&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;address2 := address&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="114" y="33" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8CmausN3yyh2izKodFJj-15" target="8CmausN3yyh2izKodFJj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="615" width="316" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-27" value="Memori" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="34" y="615" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-28" value="Menggunakan konsep pass by reference dgn pointer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="104" y="585" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-29" value="Data Address" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="194" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-30" value="Data Address" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="194" y="645" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8CmausN3yyh2izKodFJj-31" target="8CmausN3yyh2izKodFJj-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-37" value="merubah data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8CmausN3yyh2izKodFJj-34">
+          <mxGeometry x="-0.6437" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-31" value="Adress" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8CmausN3yyh2izKodFJj-32" target="8CmausN3yyh2izKodFJj-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-36" value="merubah data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8CmausN3yyh2izKodFJj-33">
+          <mxGeometry x="-0.74" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-32" value="Address2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-35" value="Dengan mengunakan konsep pointer,&lt;br&gt;ketika,&lt;br&gt;address2 := address&lt;br&gt;menjadi&lt;br&gt;address2 := &amp;amp;address&lt;br&gt;maka antara address dan address2 akan mengakses memori data&lt;br&gt;yang sama" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="632.5" width="380" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-39" value="akan merubah" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="204" y="780" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8CmausN3yyh2izKodFJj-40" value="sehingga ketika merubah data address2, &lt;br&gt;data pada address juga ikut berubah, begitu sebaliknya" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="94" y="910" width="320" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
