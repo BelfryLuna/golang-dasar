@@ -17,9 +17,7 @@ func (pelanggan Pelanggan) /*parameter_dariStruct (parameter ini ibaratnya seper
 	fmt.Println("Halo,", name, "nama saya", pelanggan.Nama, "umur saya", pelanggan.Umur) // seperti di pelanggan.Nama, parameter pelanggan ini digunakan jika ingin mengakses field dalam struct yang telah diisi dalam object/variabel ke sebuah method. dan kasusnya disini ingin mengakses data di field Nama dan lainnya
 }
 
-func mengingatVariabelArguments(nama ...string)  {
-	fmt.Println(na)
-}
+
 
 func main() {
 	// kita tak dapat memanggil sebuah method seperti function pada umumnya, tapi mengaksesnya ke dalam sebuah object yang mengisi data pada struct
@@ -37,6 +35,4 @@ func main() {
 
 	Sonny.sayHello("Cici")
 
-
-	mengingatVariabelArguments("Sonny", "Cici", "Erika")
 }

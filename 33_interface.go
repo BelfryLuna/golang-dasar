@@ -21,24 +21,24 @@ type HasName interface { // type nama_interface interface
 // pengimplementasian interface
 // disini krn interface juga dikenali sbg tipe data, kita dapat menjadikannya sbg tipe data dri variabel atau parameter misalnya,
 func sayHai(hasName HasName) /*nah data yang harus dikirimkan dalam parameter ini harus merupakan sebuah method (dari struct) yang memiliki struktur yang sama dengan kontrak yang telah ditetapkan dalam interface tersebut*/ {
-	fmt.Println("Hai", hasName.getName())
+	fmt.Println("Hai", hasName.getName() + ", Bagus nih")
 }
 
 
-// sebagaimana yang telah dijelaskan, kita dapat mengimplementasikan data dari interface menggunakan struct,
+// sebagaimana yang telah dijelaskan, kita dapat mengimplementasikan data dari interface sebelumnya kita harus membuat struct dahulu dan membuat method,
 type GotName struct {
 	Nama string
 }
 
 // disini kita akan membuat sebuah mthod dr GotName struct yang nantinya akan diimplementasikan sbg data yang akan dikirimkan pada interface,
-// dimana, kita harus membuat method tsb memiliki struktur yang sama dgn kontrak method yang didefinisikan pada interface
+// dimana, kita harus membuat method tsb memiliki struktur yang sama (dari nama method dst...) dgn kontrak method yang didefinisikan pada interface
 func (gotName GotName) getName() string {
 	return gotName.Nama
 }
 
 
-// mencoba mengisi oarameter interface dgn function dgn struktur yg sama dengan kontrak (ERROR)
-func getNameThis() string {
+// mencoba mengisi oarameter interface dgn function dgn struktur yg sama dengan kontrak (ERROR), krn interface hanya menerima sebuah method
+func getName() string {
 	return "Halo"
 }
 
@@ -71,6 +71,7 @@ func main() {
 
 	sayHai(animal)
 
+	fmt.Println(person.getName())
 
 
 

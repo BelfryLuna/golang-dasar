@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// TYPE ASSERTIONta 
+// TYPE ASSERTIONS
 // kemampuan di golang yang digunakan untuk merubah tipe data dari sebuah value yang seringnya diinisialisasi pada interface kosong menjadi tipe data yang kita inginkan.
 
 // misalnya, kita membuat function yang mengembalikan any/interface
@@ -14,6 +14,7 @@ func main() {
 	// ketika kita simpan datanya pada variabel, maka variabel tersebut dianggap tipe datanya adalah any. bukan string, meskipun return dr function tersebut adalah string.
 	result := randomValue()
 
+	
 	// kita dapat mengubah tipe data yang any tersebut menjadi string, menggunakan type assertion.
 	var resultStr string
 		resultStr = result.(string) // result.(tipeData_yangDiinginkan) merupakan syntax jika ingin melakukan type assertion
@@ -30,7 +31,7 @@ func main() {
 	// untuk tidak terjadi panic, kita dapat menggunakan fitur di swutch yaitu type,
 	// type, dapet menangkap apa tipe data return value dr function any tsb
 	// sehingga dapat dilakukan percabangan, jadi ketika tipe datanya adalah string misalnya, maka akan melakukan type assertions yang sesuai. dan jika integer, maka lakukan type assertion yang sesuai dgn integer pula.
-	switch value := result.(type) { // akan disimpan dalam var value dulu, barulah diisi dgn result.(type) (syntax fitur typenya switch)
+	switch value := result.(type) { // akan disimpan dalam var value dulu, barulah diisi dgn result.(type) (syntax fitur typenya switch) digunakan untuk mengenali tipe data dari variabel yang diinginkan di dalam sebuah switch
 	case string: // jadi switch ini dapat mengenali, dan mencabangkan eksekusi per case (tipe datanya). jika type nya string lakukan di bawah
 		resultStr = result.(string)
 			fmt.Println("string", resultStr)

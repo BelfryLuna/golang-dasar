@@ -43,7 +43,9 @@ func saveData(id string, data any) error {
 
 func main() {
 	// disini kita akan mencari tahu detail dr sebuah error apakah error tsb termasuk salah satu jenis2 custom error yang telah dibuat sebelumnya atau bukan
-	getErr := saveData("", nil)
+	getErr := saveData("eko", nil)
+
+	fmt.Println(getErr)
 
 	if getErr != nil {
 		// Jika Error

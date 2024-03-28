@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // NIL
-// #1 pada golang, bila kita membuat variabel dan serta telah mendeclare tipe datanya. ketika kita tidak mengisi datanya dan mencoba mengaksesnya dengan Println() secara otomatis akan terisi oleh default value dr tipe datanya
+// #1 pada golang, bila kita membuat variabel dan serta telah mendeclare tipe datanya. ketika kita tidak mengisi datanya dan mencoba mengaksesnya dengan Println() secara otomatis akan terisi oleh default value / zero value dr tipe datanya
 
 // memberikan nilai nil
 // contoh pada map, 

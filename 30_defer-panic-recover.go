@@ -49,14 +49,14 @@ func endThisApp() {
 	fmt.Println("End APP")
 	
 	message := recover() // disini recover akan menangkap pesan yang dikirimkan oleh panic, serta membatalkan proses panic yang menghentikan program. Jika recover() ditaruh dalam function yang sama baik sesudah ataupun sesudah baris kode panic(). maka, fungsi recover tidak akan jalan. Krn itu cara yang salah
-	fmt.Println("Terjadi Error", message)
+	fmt.Println(message)
 
 }
 
 func includeThisPanicInRecover(error bool) {
 	defer endThisApp()
 	if error {
-		panic("Error")
+		panic("Error this")
 	}
 }
 

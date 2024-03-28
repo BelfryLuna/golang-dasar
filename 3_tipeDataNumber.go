@@ -15,5 +15,8 @@ func main() {
     var num int 
 
 	num = 13
-	fmt.Println(num, "Sonny")
+	fmt.Println("ini number =", num)
+
+	var floatIni float32 = 13.5
+	fmt.Println("Ini float =", floatIni)
 }

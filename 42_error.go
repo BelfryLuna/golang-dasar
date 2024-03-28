@@ -14,7 +14,7 @@ import (
 	"fmt"
 )
 
-func pembagiNol (nilai int, pembagi int) (int, error) /*disini kita memngembalikan nilainya dalam unt, dan jika terjadi error, kembalikan error nya apa. Dan error ini adalah sebuah interface (maka dapat diisi dgn nil)*/ {
+func pembagiNol (nilai int, pembagi int) (int, error) /*disini kita memngembalikan nilainya dalam int, dan jika terjadi error, kembalikan error nya apa. Dan error ini adalah sebuah interface (maka dapat diisi dgn nil)*/ {
 	if pembagi == 0 {
 		return 0, errors.New("Pembaginya adalah Nol")
 	} else {

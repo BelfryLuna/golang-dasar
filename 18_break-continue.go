@@ -2,6 +2,15 @@ package main
 
 import "fmt"
 
+func bilGenap(num int) {
+	for i := 0; i <= num; i++ {
+		if i %2 == 0 {
+			fmt.Println("Perulangan ke", i)
+		}
+	}
+}
+
+
 func main() {
 	for i := 0; i < 15; i++ {
 		if i%2 == 1 {
@@ -14,4 +23,7 @@ func main() {
 
 		fmt.Println("Perulangan ke, " , i)
 	}
+
+	bilGenap(20)
+
 }

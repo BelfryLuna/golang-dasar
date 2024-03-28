@@ -7,8 +7,8 @@ import "fmt"
 // dan named return value tersebut juga dapat diisi layaknya variabel
 
 
-func namedRetur() (fisrtName string, lastName string) {
-	fisrtName = "Sonny" //named return value dapat diisi layaknya variabel
+func namedRetur(name string) (fisrtName string, lastName string) {
+	fisrtName = name //named return value dapat diisi layaknya variabel
 	lastName = "Irsan"
 
 	return fisrtName, lastName // dan disini kita dapat menuliskan named return nya saja pada return

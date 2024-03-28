@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	// konversi tipe data biasa (binary ke string, sesama number atau float misal int8 ke int32 dst)dgn penulisan lengkap
 	var ini32 int32 = 32768
 
 	var ke64 = int64(ini32)
@@ -12,15 +13,17 @@ func main() {
 	fmt.Println(result)
 
 
+	// cara singkat
 	str := "Sonny"
 	ambilStr := str[1]
-	keStr := string(ambilStr)
+	keStr := string(ambilStr) // caranya ketikkan tioe data yang diinginkan string(data_yangInginDiubah)
 
 	fmt.Println(keStr)
 
 
-	var tes16 int16 = 32768
+	var ini8 int8 = 18
+	ke32 := int32(ini8)
 
-	fmt.Println(tes16)
+		fmt.Println()
 
 }

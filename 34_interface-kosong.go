@@ -53,9 +53,9 @@ func main() {
 
 		fmt.Println(newSlice)
 
-	arrayNew := [...]string {
+	arrayNew := [...]any {
 		"Sonny",
-		"1",
+		1,
 		"true",
 	}
 

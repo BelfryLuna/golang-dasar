@@ -21,7 +21,7 @@ func changeAddressPointer (alamat *AlamatKTP) { // [solution] disini kalau ingin
 func main() {
 	alamat := AlamatKTP{"Bangko Jaya", "Bangko Pusako", "Rokan Hilir"} 
 
-	changeAddress(alamat) // data dr alamat(global) akan diduplikasi ke dalam parameter yang ada di function (sehingga ketika kita melakukan perubahan data alamat di dalam function)
+	changeAddress(alamat) // data dr alamat(global) akan didke dalam parameter yang ada di function (sehingga ketika kita melakukan perubahan data alamat di dalam function)
 
 	fmt.Println("Ini data di luar function," , alamat) // hal ini tidak akan memengaruhi data pada alamat(global var), karena merujuk memori data yang berbeda
 

@@ -21,7 +21,7 @@ func main() {
 		3, // index 2  , pointer pada mySlice
 		4, // index 3
 		5, // index 4
-		6, // index 5 , batas data dr mySlice, lenght : dari data index 2 ke index 5
+		6, // index 5 , batas data dr mySlice atau lenght : dari data index 2 ke index 5
 
 		7, // index 6 , batas capacity dr mySlice, dari data pointer ke akhir array
 	}
@@ -58,7 +58,7 @@ func main() {
 
 	days := [...]string {"Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu", "Minggu"}
 
-	daySlice1 := days[3:7]
+	daySlice1 := days[3:6]
 
 	daySlice1[0] = "Thursday" // disini saat kita mengubah isi data dari slice sama halnya kita juga mengubah data dari array nya
 	daySlice1[1] = "Friday"
@@ -71,7 +71,7 @@ func main() {
 
 	fmt.Println("Batas")
 
-	daySlice2 := append(daySlice1, "Ahad") // disini data baru akan ditambahkan dari data dayslice1 dan dimasukkan ke dalam dayslice2, namun data yang diappend tadi tidak masuk ke dayslicee1
+	daySlice2 := append(daySlice1, "Ahad") // disini data baru akan ditambahkan dari data dayslice1 dan dimasukkan ke dalam dayslice2, namun data yang diappend tadi tidak masuk ke dayslice1 (krn telah melebihi batas capacity dr array dr dayslice1 tsb)
 	fmt.Println(daySlice1)
 	fmt.Println(daySlice2)
 	daySlice2[0] = "Kamis" // disini yang akan berubah hanyalah data dari dayslice2 dan array baru yang dibuat di dalam internal logic di dayslicee2
